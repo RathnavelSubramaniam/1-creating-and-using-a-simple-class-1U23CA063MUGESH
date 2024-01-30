@@ -20,8 +20,8 @@ class person1
         {
            person1 a1 = new person1("Jhon", "Doe", 30);
            person1 a2 = new person1("Alice", "Smith", 25);
-           System.out.println("person 1:"+a1.Getfullname());
-           System.out.println("person 2:"+a2.Getfullname());
+           System.out.println("Person 1:"+a1.Getfullname());
+           System.out.println("Person 2:"+a2.Getfullname());
 
            double sum = a1.Age + a2.Age;
            double average = sum/2;
