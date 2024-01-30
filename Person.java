@@ -23,8 +23,8 @@ class person1
            double sum = a1.age + a2.age;
            double average = sum/2;
 
-           System.out.println("person1 : " +a1.Getfullname());
-           System.out.println("person2 : " +a2.Getfullname());
-           System.out.println("average age : " +average);
+           System.out.println("person 1:"+a1.Getfullname());
+           System.out.println("person 2:"+a2.Getfullname());
+           System.out.println("average age:"+average);
         }
     }
