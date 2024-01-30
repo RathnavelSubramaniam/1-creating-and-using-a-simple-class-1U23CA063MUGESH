@@ -1,17 +1,17 @@
 class person1
 {
-    String firstname;
-    String lastname;
-    int age;
+    String Firstname;
+    String Lastname;
+    int Age;
     person1(String fn, String ln, int a)
     {
-        firstname = fn;
-        lastname = ln;
-        age = a;
+        Firstname = fn;
+        Lastname = ln;
+        Age = a;
     }
     String Getfullname()
     {   
-        return firstname + " " + lastname;
+        return Firstname + " " + Lastname;
     }
 }
     public class Person
@@ -20,11 +20,11 @@ class person1
         {
            person1 a1 = new person1("Jhon", "Doe", 30);
            person1 a2 = new person1("Alice", "Smith", 25);
-           double sum = a1.age + a2.age;
-           double average = sum/2;
-
            System.out.println("person 1:"+a1.Getfullname());
            System.out.println("person 2:"+a2.Getfullname());
-           System.out.println("average age:"+average);
+
+           double sum = a1.Age + a2.Age;
+           double average = sum/2;
+           System.out.println("Average age:"+average);
         }
     }
